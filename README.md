@@ -1,8 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/brettdavidcarpenter/boston_housing/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is my Boston Housing Project
 
 ### Markdown
 
@@ -24,6 +22,14 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+```
+Def a function that creates a decision tree object and fits it to the input
+```
+from sklearn import tree
+def classify(features_train, labels_train): 
+clf = tree.DecisionTreeClassifier()
+    clf = clf.fit(features_train, labels_train)
+    return clf
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
